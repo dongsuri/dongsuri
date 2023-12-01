@@ -1,0 +1,57 @@
+.title {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.navbar-brand {
+  margin: 0 290px 0 0;
+  object-fit: contain;
+  font-family: Inter;
+  font-weight: bold;
+  text-align: left;
+  color: #536779;
+}
+body {
+  flex-grow: 0;
+  background-color: #aed4f7;
+	
+}
+
+.section {
+  margin-top: 120px;
+}
+.subtitle {
+  height: 75px;
+  object-fit: contain;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  color: #536779;
+}
+
+img{
+  height: 616px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 788px;
+  object-fit: cover;
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
+@media screen and (min-width: 600px) {
+	.container-fluid {
+		display: flex;
+	}
+}

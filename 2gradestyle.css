@@ -1,0 +1,32 @@
+.section {
+  margin-top: 180px;
+  margin-bottom: 400px;
+  
+}
+body {
+  flex-grow: 0;
+  background-color: #aed4f7;
+	
+}
+.subtitle {
+  margin-top: 180px;
+  height: 75px;
+  object-fit: contain;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: #536779;
+}
+."btn btn-primary" {
+	margin-bottom: 400px;
+  
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
